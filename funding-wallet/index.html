@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual-card</title>
+    <link rel="stylesheet" href="../docs/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body >
+    <!--body of card-->
+
+    <div class="w-[335px] h-full px-4 py-4 bg-white border border-gray-500">
+    <div class="w-full h-auto">
+
+    <div class="mt-4 h-56 w-full border border-gray-300 rounded-lg">
+           <!--balance-->
+<div class="bg-white mt-4 w-[280px] ml-2 h-12 border-gray-300 border px-4">
+
+    <p class="text-center">Balance</p></div>
+
+    <div class="bg-white mt-4 w-[280px] ml-2  px-4 h-24 border-gray-300 border">
+        <p class="text-center text-4xl" id="display">$0.00</p></div>
+
+
+
+
+</div>
+
+    <!--Form Fields-->
+
+    <div class="mt-4 h-72 w-full border border-black rounded-lg">
+    <form id="funding">
+  
+    <div class=" mb-2 p-2 mt-10">
+<input class="text-base border border-black w-[80%] ml-4 py-2 focus:outline-none rounded placeholder-gray-500"placeholder="Amount :" id="Amount"><br>
+    </div>
+
+    <div class=" flex justify-center">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Fund-Wallet
+      </button>
+    </div>
+      </form> 
+</div>
+
+  </div> 
+        
+     </div>
+
+     <script src="index.js"></script>   
+</body>
+</html>
